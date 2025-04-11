@@ -1281,7 +1281,7 @@ end)
 -- Tự động tham gia lại khi mất kết nối
 game:GetService("CoreGui").RobloxPromptGui.promptOverlay.ChildAdded:Connect(function(child)
     if not hopserver and child.Name == 'ErrorPrompt' and child:FindFirstChild('MessageArea') and child.MessageArea:FindFirstChild("ErrorFrame") then
-        print("Cuttay Auto Bounty | Đang vào lại!")
+        print("Gấu Mèo Bounty | Đang vào lại!")
         UI.ShowNotification("Bị ngắt kết nối, đang vào lại...", "warning")
         game:GetService("TeleportService"):Teleport(game.PlaceId)
     end
@@ -1319,7 +1319,7 @@ function wEarn(targ, earn, total)
             ["content"] = "",
             ["embeds"] = {
                 {
-                    ["title"] = "**Cuttay Hub | Auto Bounty**",
+                    ["title"] = "**Gấu Mèo Hub | Auto Bounty**",
                     ["color"] = 3447003, -- Màu xanh dương Discord
                     ["fields"] = {
                         {
@@ -1352,7 +1352,7 @@ function wEarn(targ, earn, total)
                         ["url"] = "https://cdn.discordapp.com/attachments/1338107245983957013/1352284325386784850/Untitled524_20240705122146.png?ex=67dd746b&is=67dc22eb&hm=9271d0158ce1b078c61e2a5358ef80f1ff5e5619de9e159c2fe867a4a5ee734b&",
                     },
                     ["footer"] = {
-                        ["text"] = "Cuttay Hub - .gg/baokhanh",
+                        ["text"] = "Gấu Mèo Hub - .gg/Thanyeuem",
                     },
                     ["timestamp"] = os.date("!%Y-%m-%dT%H:%M:%SZ"),
                 }
@@ -1364,7 +1364,7 @@ function wEarn(targ, earn, total)
 end
 
 -- === QUẢN LÝ CÀI ĐẶT ===
-local foldername = "Cuttay Hub Auto Bounty"
+local foldername = "Gấu Mèo Hub Auto Bounty"
 local filename = foldername.."/Settings.json"
 
 function saveSettings()
